@@ -1,13 +1,41 @@
 ---
 layout: post
-title:  TYPO.CSS
-date:   2012-08-10 12:55:11
-category: "介绍"
+title:  学习用github搭建blog
+category: "2017"
 ---
 
 <h2 id="tagline">hello myblog</h2>
-1.第一个标题
+
+1.第一步
+
+
 {%highlight matlab%}
 欲求不满
 {%endhighlight%}
 
+2.第二步
+学习git基本操作：
+git clone url
+git add 文件
+git commit -m "评论"
+git push -u origin master
+
+3.第三部
+安装ruby
+sudo apt-get install ruby
+gem 安装
+改源：
+
+{%highlight matlab%}
+gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+gem sources -l
+{%endhighlight%}
+然后
+安装遇到问题
+sudo apt-get install ruby_dev
+
+搜索stackover_flow解决掉
+
+将别人的库下下来，添加到自己的库中：
+修改ur为
+https://loveva.github.io/
